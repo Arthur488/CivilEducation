@@ -267,7 +267,8 @@ img {
 }
 
 .site-header {
-	padding-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	position: absolute;
 	width: 100%;
 	z-index: 2;
@@ -765,8 +766,6 @@ img {
 }
 .site-header.sticky-on  {
 	background: #E3FCFF;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 
 /* header-extra-info */
@@ -7288,3 +7287,4 @@ p.checkout-coupon input[type="text"] {
     font: bold 2em "Poppins", sans-serif;
   }
 }
+
