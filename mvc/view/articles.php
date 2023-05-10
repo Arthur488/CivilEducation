@@ -70,7 +70,7 @@
 </section>
 <!-- / END PORTFOLIO DESIGN AREA -->
 
-<!-- Header -->
+<!-- Footer -->
 <? require("mvc/view/footer.php"); ?>
 
 <!--========= JS Here =========-->

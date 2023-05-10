@@ -16,111 +16,17 @@
   <link rel="shortcut icon" href="/static/images/Logo.png" type="images/x-icon"/>
 
   <!--====== CSS Here ======-->
-  <link rel="stylesheet" href="resources/static/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="resources/static/assets/css/animate.min.css">
-  <link rel="stylesheet" href="resources/static/assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="resources/static/assets/css/lightcase.css">
-  <link rel="stylesheet" href="resources/static/assets/css/meanmenu.css">
-  <link rel="stylesheet" href="resources/static/assets/css/nice-select.css">
-  <link rel="stylesheet" href="resources/static/assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="resources/static/assets/css/datepicker.min.css">
-  <link rel="stylesheet" href="resources/static/assets/css/jquery-ui.min.css">
-  <link rel="stylesheet" href="resources/static/assets/css/default.css">
-  <link rel="stylesheet" href="resources/static/assets/css/style.css">
-  <link rel="stylesheet" href="resources/static/assets/css/responsive.css">
+  <? require_once("mvc/view/include_css.php"); ?>
 
 </head>
 
 <body>
 
 <!-- preloader  -->
-<div id="preloader">
-  <div id="ctn-preloader" class="ctn-preloader">
-    <div class="animation-preloader">
-      <div class="spinner"></div>
-      <div class="txt-loading">
-                        <span data-text-preloader="D" class="letters-loading">
-                            Д
-                        </span>
-        <span data-text-preloader="O" class="letters-loading">
-                            О
-                        </span>
-        <span data-text-preloader="P" class="letters-loading">
-                            П
-                        </span>
-        <span data-text-preloader="O" class="letters-loading">
-                            О
-                        </span>
-        <span data-text-preloader="M" class="letters-loading">
-                            М
-                        </span>
-        <span data-text-preloader="O" class="letters-loading">
-                            О
-                        </span>
-        <span data-text-preloader="G" class="letters-loading">
-                            Г
-                        </span>
-        <span data-text-preloader="A" class="letters-loading">
-                            А
-                        </span>
-      </div>
-    </div>
-    <div class="loader">
-      <div class="row">
-        <div class="col-3 loader-section section-left">
-          <div class="bg"></div>
-        </div>
-        <div class="col-3 loader-section section-left">
-          <div class="bg"></div>
-        </div>
-        <div class="col-3 loader-section section-right">
-          <div class="bg"></div>
-        </div>
-        <div class="col-3 loader-section section-right">
-          <div class="bg"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- preloader end -->
+<? require("mvc/view/preloader.php"); ?>
 
-<!-- header start -->
-<header id="sticky-header" class="site-header">
-  <div class="container custom-header">
-    <div class="row align-items-center">
-      <div class="col-xl-2 col-lg-3">
-        <a href="/CivilEducation/index.html" class="site-logo">
-          <img class="img-fluid" src="/static/images/Logo.png" alt="Picture" style="max-width: 100px;">
-        </a>
-        <div class="mobile-menu"></div>
-      </div>
-      <div class="col-xl-10 col-lg-10 my-auto">
-        <div class="mainmenu">
-          <nav id="mobile-menu" style="font-size: 18px">
-            <ul>
-              <li>
-                <a href="/CivilEducation/index.html" style="font-size: 20px">Додому +</a>
-              </li>
-              <li><a href="#" style="font-size: 16px; font-weight: 400">Допомога в Україні +</a>
-              </li>
-              <li><a href="#" style="font-size: 16px; font-weight: 400">Допомога в Світі +</a>
-              </li>
-              <li><a href="#" style="font-size: 16px; font-weight: 400">Допомога у Чернігові +</a>
-              </li>
-              <li><a href="#" style="font-size: 16px; font-weight: 400">Самодопомога +</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-      </div>
-
-    </div>
-  </div>
-</header>
-
-<!-- header end -->
+<!-- Header -->
+<? require("mvc/view/header.php"); ?>
 
 <!-- about area start -->
 <section class="about-area pt-160 pb-100">
@@ -513,75 +419,11 @@
 </section>
 <!-- our mission area end -->
 
-<!-- footer start -->
-<footer class="site-footer pt-100 pb-10">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-12 col-lg-12 pr-50">
-        <div class="row">
-          <div class="col-6">
-            <div class="footer-widget">
-              <h4 class="widget-title">Про Нас</h4>
-              <p><span class="font-weight-bold">Ми експерти в даній області &amp; Ми гуру в цьому напрямку.</span>
-                Наша команда - це професійні, натреновані, з великим досвідом спеціалісти.
-                Ми знаємо толк в цьому ділі.</p>
-
-              <div class="row mt-2">
-                <div class="icon col">
-                  <i class="fas fa-handshake fa-3x"></i>
-                </div>
-                <div class="content col-10">
-                  <p>Отримай безкоштовну допомогу!</p>
-                  <a href="tel:987876875865">+00 (123) 345 67 89</a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="col-6 align-items-center">
-            <div class="footer-widget">
-              <h4 class="widget-title">Де нас знайти </h4>
-              <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-google-plus-g"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="copyright-text row">
-              <p class="col-6">Copyright By@<span>Psychology Aid Team</span> - 2023</p>
-              <p class="col-6">Powered By <span>Bogdan &amp; Arthur &amp; Kirill</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- footer end -->
+<!-- footer -->
+<? require("mvc/view/footer.php"); ?>
 
 <!--========= JS Here =========-->
-<script src="resources/static/assets/js/jquery-2.2.4.min.js"></script>
-<script src="resources/static/assets/js/bootstrap.min.js"></script>
-<script src="resources/static/assets/js/counterup.min.js"></script>
-<script src="resources/static/assets/js/datepicker.min.js"></script>
-<script src="resources/static/assets/js/datepicker.en.js"></script>
-<script src="resources/static/assets/js/jquery-ui.min.js"></script>
-<script src="resources/static/assets/js/jquery.nice-select.min.js"></script>
-<script src="resources/static/assets/js/lightcase.js"></script>
-<script src="resources/static/assets/js/owl.carousel.min.js"></script>
-<script src="resources/static/assets/js/jquery.meanmenu.min.js"></script>
-<script src="resources/static/assets/js/imagesloaded.pkgd.min.js"></script>
-<script src="resources/static/assets/js/isotope.pkgd.min.js"></script>
-<script src="resources/static/assets/js/wow.min.js"></script>
-<script src="resources/static/assets/js/waypoint.js"></script>
-<script src="resources/static/assets/js/main.js"></script>
+<? require_once("mvc/view/include_js.php"); ?>
 </body>
 
 </html>
