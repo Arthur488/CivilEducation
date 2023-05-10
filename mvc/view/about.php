@@ -13,7 +13,7 @@
   <title>Psycho Aid Help - Site</title>
 
   <!--====== Favicon ======-->
-  <link rel="shortcut icon" href="/static/images/Logo.png" type="images/x-icon"/>
+  <link rel="shortcut icon" href="resources/static/images/our_vision.png" type="images/x-icon"/>
 
   <!--====== CSS Here ======-->
   <? require_once("mvc/view/include_css.php"); ?>
@@ -410,7 +410,7 @@
       <div class="col-lg-6 offset-lg-1">
         <div class="our-mission-thumb">
           <div class="mission-thumb-big"  style="margin-top: 120px">
-            <img src="../static/images/our_vision.png" alt="">
+            <img src="resources/static/images/our_vision.png" alt="">
           </div>
         </div>
       </div>

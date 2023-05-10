@@ -13,7 +13,7 @@
     <title>Psycho Aid Help - Site</title>
 
     <!--====== Favicon ======-->
-    <link rel="shortcut icon" href="resources/static/images/Logo.png" type="images/x-icon"/>
+    <link rel="shortcut icon" href="resources/static/images/our_vision.png" type="images/x-icon"/>
 
     <!--====== CSS Here ======-->
     <? require_once("mvc/view/include_css.php"); ?>
