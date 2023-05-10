@@ -192,7 +192,7 @@
                                 <span class="designation">Founders</span>
                             </div>
                             <div class="content ml-5">
-                                <a href="about.php" class="site-btn">Дізнайся більше про нас</a>
+                                <a href="index.php?c=about" class="site-btn">Дізнайся більше про нас</a>
                             </div>
                         </div>
                     </div>

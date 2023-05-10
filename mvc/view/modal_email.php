@@ -8,7 +8,7 @@
                         <div class="tab-pane fade active show" id="appointment" role="tabpanel"
                              aria-labelledby="appointment-tab">
                             <div class="contact-form">
-                                <form action="#" method="post">
+                                <form action="#" method="POST">
                                     <div class="row">
                                         <div class="col-lg-4">
                                             <div class="form-group">
@@ -32,7 +32,7 @@
                                     <div class="row">
                                         <div class="col-lg-5">
                                             <div class="form-group">
-                                                <input type="email" placeholder="Пошта">
+                                                <input id="email" type="email" placeholder="Пошта">
                                                 <span class="icon"><i class="fal fa-envelope"></i></span>
                                             </div>
                                         </div>
@@ -59,7 +59,7 @@
                                     </div>
                                     <div class="row justify-content-center">
                                         <div class="col-lg-6 text-center">
-                                            <button class="site-btn">Відправити</button>
+                                            <button type="submit" class="site-btn">Відправити</button>
                                         </div>
                                         <div class="col-lg-6 text-center">
                                             <button class="site-btn red" data-dismiss="modal">Скасувати</button>

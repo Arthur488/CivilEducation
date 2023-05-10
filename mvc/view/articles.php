@@ -13,7 +13,7 @@
     <title>Psycho Aid Help - Site</title>
 
     <!--====== Favicon ======-->
-    <link rel="shortcut icon" href="/static/images/Logo.png" type="images/x-icon"/>
+    <link rel="shortcut icon" href="resources/static/images/Logo.png" type="images/x-icon"/>
 
     <!--====== CSS Here ======-->
     <? require_once("mvc/view/include_css.php"); ?>
@@ -30,7 +30,7 @@
 
 
 <!-- START PORTFOLIO DESIGN AREA -->
-<section class="portfolio-area pt-120 pb-90">
+<section class="portfolio-area pt-120 pb-90 ml-2 mr-2">
 
     <div class="container-fluid row justify-content-center align-items-center pb-25">
         <div class="text-center">
@@ -38,39 +38,33 @@
         </div>
     </div>
 
-    <div class="container">
+    <? foreach($articles as $article): ?>
+
+    <div class="container box mb-50">
+
+        <div class="row pt-3 mb-2">
+            <a href="<?=$article['link']?>">
+                <div class="col-1 text-center">
+                    <i class="fas fa-solid fa-link"></i>
+                </div>
+            </a>
+            <div class="col-11 text-center">
+                <h4 class="section-title shape"><strong><?=$article['title']?></strong></h4>
+            </div>
+        </div>
 
         <div class="row">
-
-            <? foreach($articles as $article): ?>
-
-            <div class="col-lg-6 col-md-6 grid-item cat2 cat4">
-                <div class="portfolio-item mb-30">
-                    <div class="portfolio-wrapper">
-                        <div class="portfolio-image">
-                            <img src="resources/static/images/resource_psychology.jpg" alt="" />
-                            <div class="view-icon">
-                                <a class="popup-image" href="<?=$article['link']?>">
-                                    <i class="fas fa-plus"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="portfolio-caption">
-                            <h4><?=$article['title']?></h4>
-                            <p><?=$article['content']?></p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-12 mb-2">
+                <?=$article['content']?>
             </div>
-
-            <? endforeach; ?>
-
         </div>
     </div>
-</section>
-<!-- / END PORTFOLIO DESIGN AREA -->
+        
+    <? endforeach; ?>
 
-<!-- Footer -->
+</section>
+
+<!-- Header -->
 <? require("mvc/view/footer.php"); ?>
 
 <!--========= JS Here =========-->
