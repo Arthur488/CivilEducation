@@ -8,23 +8,23 @@
                         <div class="tab-pane fade active show" id="appointment" role="tabpanel"
                              aria-labelledby="appointment-tab">
                             <div class="contact-form">
-                                <form action="#" method="POST">
+                                <form action="index.php?c=sandmail" method="POST">
                                     <div class="row">
                                         <div class="col-lg-4">
                                             <div class="form-group">
-                                                <input type="text" placeholder="Ім'я">
+                                                <input name="name" type="text" placeholder="Ім'я">
                                                 <span class="icon"><i class="fal fa-user"></i></span>
                                             </div>
                                         </div>
                                         <div class="col-lg-4">
                                             <div class="form-group">
-                                                <input type="text" placeholder="Фамілія">
+                                                <input name="surname" type="text" placeholder="Фамілія">
                                                 <span class="icon"><i class="fal fa-user"></i></span>
                                             </div>
                                         </div>
                                         <div class="col-lg-4">
                                             <div class="form-group">
-                                                <input type="text" placeholder="По-батькові">
+                                                <input name="second_surname" type="text" placeholder="По-батькові">
                                                 <span class="icon"><i class="fal fa-user"></i></span>
                                             </div>
                                         </div>
@@ -32,19 +32,19 @@
                                     <div class="row">
                                         <div class="col-lg-5">
                                             <div class="form-group">
-                                                <input id="email" type="email" placeholder="Пошта">
+                                                <input name="email" type="email" placeholder="Пошта">
                                                 <span class="icon"><i class="fal fa-envelope"></i></span>
                                             </div>
                                         </div>
                                         <div class="col-lg-5">
                                             <div class="form-group">
-                                                <input type="tel" placeholder="Телефон">
+                                                <input name="phone" type="tel" placeholder="Телефон">
                                                 <span class="icon"><i class="fal fa-phone"></i></span>
                                             </div>
                                         </div>
                                         <div class="col-lg-2">
                                             <div class="form-group">
-                                                <input type="text" placeholder="Вік">
+                                                <input name="age" type="text" placeholder="Вік">
                                                 <span class="icon"><i class="fal fa-calendar"></i></span>
                                             </div>
                                         </div>
@@ -52,7 +52,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <div class="form-group">
-                                                <textarea placeholder="Що Вас турбує?"></textarea>
+                                                <textarea name="text" placeholder="Що Вас турбує?"></textarea>
                                                 <span class="icon"><i class="fal fa-edit"></i></span>
                                             </div>
                                         </div>
