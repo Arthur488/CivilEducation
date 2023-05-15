@@ -40,7 +40,7 @@
                     </div>
                     <div class="content">
                         <p>Отримай безкоштовну допомогу!</p>
-                        <a href="tel:987876875865">+00 (123) 345 67 89</a>
+                        <a href="tel:987876875865">studprojectpi201@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -52,10 +52,6 @@
                     <p>Наш сайт пропонує допомогу у пошуку програми допомоги, а саме <br>
                         державні та волонтерські організації, які її надають в межах, або за <br>
                         межами України.</p>
-                    <div class="hero-buttons">
-                        <a href="#" class="site-btn">Наші можливості</a>
-                        <a href="#" class="site-btn red">Дізнайся більше</a>
-                    </div>
                 </div>
             </div>
 
@@ -192,7 +188,7 @@
                                 <span class="designation">Founders</span>
                             </div>
                             <div class="content ml-5">
-                                <a href="index.php?c=about" class="site-btn">Дізнайся більше про нас</a>
+                                <a href="<?=BASE_URL?>?c=about" class="site-btn">Дізнайся більше про нас</a>
                             </div>
                         </div>
                     </div>

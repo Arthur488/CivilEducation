@@ -8,7 +8,7 @@
                         <div class="tab-pane fade active show" id="appointment" role="tabpanel"
                              aria-labelledby="appointment-tab">
                             <div class="contact-form">
-                                <form action="index.php?c=sandmail" method="POST">
+                                <form action="<?=BASE_URL?>?c=sandmail" method="POST">
                                     <div class="row">
                                         <div class="col-lg-4">
                                             <div class="form-group">

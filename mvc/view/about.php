@@ -159,7 +159,6 @@
       <div class="col-lg-6 text-center">
         <div class="section-heading mb-50">
           <h2 class="section-title shape">Гуру-спеціалалісти своєї справи</h2>
-          <p>Наша головна мета - допомогти тим, хто стоїть на захисті нашої свободи, нашого життя та миру.</p>
         </div>
       </div>
     </div>
@@ -173,9 +172,8 @@
                             </span>
           </div>
           <div class="content">
-            <h4 class="title">Дар'я Килочицька.</h4>
+            <h4 class="title">Дар'я Килочицька</h4>
             <span class="sub-title">Co-Founder</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
           </div>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -194,9 +192,8 @@
                             </span>
           </div>
           <div class="content">
-            <h4 class="title">Олена Шинкаренко.</h4>
+            <h4 class="title">Олена Шинкаренко</h4>
             <span class="sub-title">Co-Founder</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ncididunt ut labore et dolore magna.</p>
           </div>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -215,9 +212,8 @@
                             </span>
           </div>
           <div class="content">
-            <h4 class="title">Купа Аліна.</h4>
+            <h4 class="title">Купа Аліна</h4>
             <span class="sub-title">Co-Founder</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
           </div>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -237,9 +233,8 @@
                             </span>
           </div>
           <div class="content">
-            <h4 class="title">Семенець Кирило.</h4>
+            <h4 class="title">Семенець Кирило</h4>
             <span class="sub-title">Co-Founder (Developer)</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
           </div>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -259,9 +254,8 @@
                             </span>
           </div>
           <div class="content">
-            <h4 class="title">Хромов Олег.</h4>
+            <h4 class="title">Хромов Олег</h4>
             <span class="sub-title">Co-Founder</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
           </div>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -281,9 +275,8 @@
                             </span>
           </div>
           <div class="content">
-            <h4 class="title">Мамонтов Богдан.</h4>
+            <h4 class="title">Мамонтов Богдан<h4>
             <span class="sub-title">Co-Founder (Beck-End (PHP) Dev)</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
           </div>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -303,9 +296,8 @@
                             </span>
           </div>
           <div class="content">
-            <h4 class="title">Рахманкулов Артур.</h4>
+            <h4 class="title">Рахманкулов Артур</h4>
             <span class="sub-title">Co-Founder (Developer)</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
           </div>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -347,9 +339,7 @@
                     <i class="fal fa-bullseye-pointer fa-3x"></i>
                   </div>
                   <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    <p>Наша місія.</p>
                   </div>
                 </div>
               </div>
@@ -371,10 +361,7 @@
                     <i class="fal fa-eye fa-3x"></i>
                   </div>
                   <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod
-                      tempor incididunt ut labore et
-                      dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    <p>Наші погляди.</p>
                   </div>
                 </div>
               </div>
@@ -396,10 +383,7 @@
                     <i class="fas fa-solid fa-crosshairs fa-3x"></i>
                   </div>
                   <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod
-                      tempor incididunt ut labore et
-                      dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    <p>Наша мета.</p>
                   </div>
                 </div>
               </div>
